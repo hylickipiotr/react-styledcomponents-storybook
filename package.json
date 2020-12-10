@@ -1,0 +1,23 @@
+{
+  "name": "react-styledcomponents-storybook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build-storybook": "build-storybook -c ./",
+    "storybook": "start-storybook -p 9011 -c ./"
+  },
+  "dependencies": {
+    "@storybook/addon-controls": "6.2.0-alpha.5",
+    "@storybook/addon-essentials": "6.2.0-alpha.5",
+    "@storybook/react": "6.2.0-alpha.5",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.5",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.2.1",
+    "typescript": "^3.9.3",
+    "webpack": "^4.44.2"
+  }
+}
